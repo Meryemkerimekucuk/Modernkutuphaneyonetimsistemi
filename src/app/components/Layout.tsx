@@ -8,49 +8,49 @@ import {
 import { useState } from 'react';
 
 const navigation = [
-  { name: 'Dashboard', href: '/', icon: LayoutDashboard },
+  { name: 'Dashboard', href: '/admin', icon: LayoutDashboard },
   {
     name: 'Kitaplar',
     icon: BookOpen,
     children: [
-      { name: 'Tüm Kitaplar', href: '/books' },
-      { name: 'Kitap Ekle', href: '/books/add' },
-      { name: 'Kategoriler', href: '/categories' },
-      { name: 'Yazarlar', href: '/authors' },
-      { name: 'Yayınevleri', href: '/publishers' },
+      { name: 'Tüm Kitaplar', href: '/admin/books' },
+      { name: 'Kitap Ekle', href: '/admin/books/add' },
+      { name: 'Kategoriler', href: '/admin/categories' },
+      { name: 'Yazarlar', href: '/admin/authors' },
+      { name: 'Yayınevleri', href: '/admin/publishers' },
     ]
   },
   {
     name: 'Üyeler',
     icon: Users,
     children: [
-      { name: 'Tüm Üyeler', href: '/members' },
-      { name: 'Üye Ekle', href: '/members/add' },
+      { name: 'Tüm Üyeler', href: '/admin/members' },
+      { name: 'Üye Ekle', href: '/admin/members/add' },
     ]
   },
   {
     name: 'İşlemler',
     icon: ArrowLeftRight,
     children: [
-      { name: 'Ödünç İşlemleri', href: '/borrowings' },
-      { name: 'Yeni Ödünç', href: '/borrowings/new' },
-      { name: 'İadeler', href: '/returns' },
-      { name: 'Geç İadeler', href: '/overdue' },
+      { name: 'Ödünç İşlemleri', href: '/admin/borrowings' },
+      { name: 'Yeni Ödünç', href: '/admin/borrowings/new' },
+      { name: 'İadeler', href: '/admin/returns' },
+      { name: 'Geç İadeler', href: '/admin/overdue' },
     ]
   },
   {
     name: 'Raporlar',
     icon: FileBarChart,
     children: [
-      { name: 'Raporlar', href: '/reports' },
-      { name: 'İstatistikler', href: '/statistics' },
+      { name: 'Raporlar', href: '/admin/reports' },
+      { name: 'İstatistikler', href: '/admin/statistics' },
     ]
   },
 ];
 
 const bottomNav = [
-  { name: 'Ayarlar', href: '/settings', icon: Settings },
-  { name: 'Profil', href: '/profile', icon: User },
+  { name: 'Ayarlar', href: '/admin/settings', icon: Settings },
+  { name: 'Profil', href: '/admin/profile', icon: User },
 ];
 
 export function Layout() {
