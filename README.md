@@ -27,13 +27,8 @@ kolay ve düzenli bir şekilde gerçekleştirilmektedir.
 
 Projenin canlı versiyonuna aşağıdaki bağlantıdan ulaşabilirsiniz:
 
-👉 (Vercel linkini buraya ekle)
+👉 https://modernkutuphaneyonetimsistemi.vercel.app
 
-## 🎨 Figma Tasarımı
-
-Arayüz tasarımını incelemek için:
-
-👉 https://www.figma.com/make/SoSOdV1W66EQZIEjVc9uSQ/Modern-K%C3%BCt%C3%BCphane-Y%C3%B6netim-Sistemi?p=f&t=DwFcs8UHCGTUQjx7-0&fullscreen=1
 
 ## 🧩 Özellikler
 
